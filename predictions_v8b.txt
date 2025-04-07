@@ -1,0 +1,55 @@
+Here's your daily prediction report for 2025-04-07 as of 05:14 PM.
+
+Model E: XGB v8b Model with FGE & EA SS
+Run Time: 05:14 PM to 05:15 PM
+
+Product: Front Month Contract
+Open Interest Delta Change between Apr 02 & Apr 03: -4438.0
+Apr 02 OI: 645556.0
+Apr 03 OI: 641118.0
+
+Real Time Volume Change: 1086.0
+Previous: 213952.0, Now: 215038.0
+
+Using Real Time Data
+Real Time Close Price: $62.95
+Real Time DXY: 102.678
+Real Time LNG Price: 3.737
+
+Previous Day Close Price: $65.58
+Tonight's Predicted Close Price: $72.92
+Predicted Price Change from Real Time Close: $9.97
+Predicted Price Change from Close: $7.34
+Predicted Direction: Increase
+
+EA Sentiment Score: 0.553236
+FGE Weekly Sentiment Score: 0.473641
+
+Model E Metrics
+Input Features & Feature Importance
+EA_SS_3             0.780202
+DXY_MA_250          0.055118
+long_shortma        0.051069
+EA_WA_3             0.025422
+LNG_MA_250          0.024747
+LNG Price           0.018673
+DXY_long_shortma    0.018448
+LNG_long_shortma    0.018223
+FGE_WA_3            0.008099
+
+Input Features Correlation to Close
+Close               1.000000
+LNG Price           0.690473
+LNG_MA_250          0.409732
+FGE_WA_3            0.085621
+EA_SS_3            -0.310291
+EA_WA_3            -0.329315
+LNG_long_shortma   -0.445700
+DXY_long_shortma   -0.566218
+long_shortma       -0.763299
+DXY_MA_250         -0.839818
+
+Training RMSE: 0.14588 | Testing RMSE: 1.1706438153946566
+
+Stop Loss Level: $52.24
+Take Profit Level: $84.36
